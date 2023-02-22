@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+:root{
+    --cor-azul: #1F2044;
+    --cor-amarelo: #FFB400;
+    --cor-clara: #F9F9FC;
+
+    --fonte-principal: "Open Sans", sans-serif;
+    --font-links: "Poppins", sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    max-width: 1320px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (max-width: 1400px) {
+    .container {
+        max-width: 980px;
+    }
+}
+
+@media (max-width: 1020px) {
+    .container {
+        max-width: 300px;
+    }
+}
+/* Section */
+.section{
+    padding: 80px 0;
+}
+/* Flexbox */
+.d-flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-direction-column{
+    flex-direction: column;
+}
+.align-itens-center {
+    align-items: center;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-space-around {
+    justify-content: space-around;
+}
+
+.justify-content-space-between {
+    justify-content: space-between;
+}
+
+.justify-content-space-evenly {
+    justify-content: space-evenly;
+}
+
+/* Fontes e Cores */
+
+.fonte-principal{
+    font-family: var(--fonte-principal);
+}
+.font-links{
+    font-family: var(--font-links);
+}
+
+.cor-azul-fonte{
+    color: var(--cor-azul);
+}
+.cor-amarelo-fonte{
+    color: var(--cor-amarelo);
+}
+
+.cor-bk-azul{
+    background-color: var(--cor-azul);
+}
+.cor-bk-clara{
+    background-color: var(--cor-clara);
+}

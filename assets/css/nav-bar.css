@@ -1,0 +1,34 @@
+.link-logo{
+    position: relative;
+}
+.navbar{
+    height: 80px;
+    position: sticky;
+    top: 0;
+}
+.div-links{
+    margin-left: auto;
+}
+.links-navbar{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+
+    margin-right: 20px;
+    transition: 0.2s;
+}
+.links-navbar:hover{
+    color: #FFB400;
+}
+.botao-contact{
+    margin-right: 0;
+    margin-left: 20px;
+    height: 40px;
+    width: 140px;
+    color: white;
+}
+.botao-contact:hover{
+    border-radius: 20px;
+    color: white;
+}
